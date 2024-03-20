@@ -1,3 +1,6 @@
+:root{
+	--global-color-1:#4d0080;
+}
 /* the styles for the elements */
 body {
 	font-family: Arial, Helvetica, sans-serif;
@@ -6,8 +9,8 @@ body {
 a:focus, a:hover{
 	font-style: italic;
 }
-em.shadow{
-	text-shadow: #800000;
+.shadow{
+	text-shadow: global-color-1;
 }
 
 /* the styles for the header */
@@ -16,7 +19,7 @@ header img {
 }
 header h2 {
 	font-size: 170%;
-	color: #800000;
+	color: global-color-1;
 	text-indent: 30px;
 }
 header h3 {
